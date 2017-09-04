@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94de98a3e78ce9a4ab638395691f1c2a, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2028364E-2815-4B86-8EE2-17C7BA2D0EFE}'
+    m_lastTimePsrt1: 1213520199
+    m_lastTimePart2: -1999309887
+    List:
+    - Name: KidKwei_Licks
+      Path: Default Work Unit\KidKwei_Licks
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: KidKwei_Licks
+        ObjectType: 3
+      ID: -178960788
+      Guid: 426f8d7afcb06646bdd2b50f80a4eaea
+      maxAttenuation: 0
+    - Name: KidKwei_MainPlaylist
+      Path: Default Work Unit\KidKwei_MainPlaylist
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: KidKwei_MainPlaylist
+        ObjectType: 3
+      ID: -21694849
+      Guid: 0ff1945a16e84049bc35d97ef53679a2
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{D580F84F-482A-41BB-B68F-C2D11A9F4C34}'
+    m_lastTimePsrt1: -1816005318
+    m_lastTimePart2: -1999310006
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{4C233148-03D2-449D-97F2-632CFEC1AD28}'
+    m_lastTimePsrt1: -1808540431
+    m_lastTimePart2: -1999310006
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2ACE17E9-14A4-4434-840B-3C775899E622}'
+    m_lastTimePsrt1: -1808510354
+    m_lastTimePart2: -1999310006
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{5756A5F2-804A-428E-9C55-95752D3DECD5}'
+    m_lastTimePsrt1: 45721990
+    m_lastTimePart2: -1999309885
+    List:
+    - Name: Kid_Kwei
+      Path: Default Work Unit\Kid_Kwei
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Kid_Kwei
+        ObjectType: 7
+      ID: -638753438
+      Guid: 023cf9bc24c24d4f972910f5e38b16df
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{751D77B3-54CE-448E-9D97-487EED4B33F1}'
+    m_lastTimePsrt1: -1828057388
+    m_lastTimePart2: -1999310006
+    List: []
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    ParentPhysicalPath: 
+    Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
+    m_lastTimePsrt1: -1828027308
+    m_lastTimePart2: -1999310006
+    List:
+    - Name: SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      ID: 1351367891
+      Guid: 59062ef746431c4ea1b1dab46a05101e
+    - Name: SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      ID: -1292209176
+      Guid: 37fe2d2f9e4f944d83d853cca39781ad
+    - Name: SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      ID: 1029930033
+      Guid: dc79aea23acaba4696529986c322a87b
+    - Name: SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      ID: -1646418679
+      Guid: 45b4e209a3c47f44b3ca818a1d925ef7
+    - Name: SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      ID: -447042342
+      Guid: 1a81b7e32f7b0f49b44f5fe51b468041
+    - Name: SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      ID: 822163944
+      Guid: ab9048a3d5b92645a64d5290c43ef2dc
+    - Name: SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      ID: -1220270574
+      Guid: efeb291393a12e47a38c64668b494879
+    - Name: SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      ID: -579304704
+      Guid: db8c3fe9d1063747acaf7cd44bbed783
+    - Name: SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      ID: -1091570167
+      Guid: 2ca76f537e8c8b4cae03ef34fdadc314
+    - Name: SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      ID: -134719478
+      Guid: 197ba8edaa73a0409f192073606db710
+  - PhysicalPath: Game Parameters\Intensity param.wwu
+    ParentPhysicalPath: 
+    Guid: '{7D1033FC-CFC3-4322-BB09-D324CC4C07A7}'
+    m_lastTimePsrt1: -1827997225
+    m_lastTimePart2: -1999310006
+    List:
+    - Name: Intensity_parameter
+      Path: Intensity param\Intensity_parameter
+      PathAndIcons:
+      - ElementName: Intensity param
+        ObjectType: 12
+      - ElementName: Intensity_parameter
+        ObjectType: 13
+      ID: 915342676
+      Guid: d20715f198d66e43bed7450b10bad2df
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{0134E595-BC07-41CD-B077-DC0F59A9446E}'
+    m_lastTimePsrt1: -1808485286
+    m_lastTimePart2: -1999310006
+    List:
+    - Name: Willie_Mae_Fall_Bb
+      Path: Default Work Unit\Willie_Mae_Fall_Bb
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Fall_Bb
+        ObjectType: 14
+      ID: -1744779138
+      Guid: f4a58eedefa6314b86f8696665c05966
+    - Name: Willie_Mae_Fall_C
+      Path: Default Work Unit\Willie_Mae_Fall_C
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Fall_C
+        ObjectType: 14
+      ID: -89089803
+      Guid: bc971e72ad7ab044947fabcaf8124924
+    - Name: Willie_Mae_Fall_Csharp
+      Path: Default Work Unit\Willie_Mae_Fall_Csharp
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Fall_Csharp
+        ObjectType: 14
+      ID: 973012151
+      Guid: f87fd0da41da774aaccb54cfb2c9eccc
+    - Name: Willie_Mae_Fall_D
+      Path: Default Work Unit\Willie_Mae_Fall_D
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Fall_D
+        ObjectType: 14
+      ID: -89089806
+      Guid: fe0622f572750240965ef8d2dcb4dba9
+    - Name: Willie_Mae_Lick_1
+      Path: Default Work Unit\Willie_Mae_Lick_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Lick_1
+        ObjectType: 14
+      ID: -2014044749
+      Guid: 5a062444952d5348ba236acadde16491
+    - Name: Willie_Mae_Lick_2
+      Path: Default Work Unit\Willie_Mae_Lick_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Lick_2
+        ObjectType: 14
+      ID: -2014044752
+      Guid: 260eb9bdf12e0f459c0dd441867c4753
+    - Name: Willie_Mae_Lick_3
+      Path: Default Work Unit\Willie_Mae_Lick_3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Lick_3
+        ObjectType: 14
+      ID: -2014044751
+      Guid: 7d1dfb6791432842bb9b6c745d651ba7
+    - Name: Willie_Mae_Lick_4
+      Path: Default Work Unit\Willie_Mae_Lick_4
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Willie_Mae_Lick_4
+        ObjectType: 14
+      ID: -2014044746
+      Guid: 59be5fda62d6bb4fb0d918c2a4a6184b
+  ExpandedItems:
+  - /Rhythm_Wwise_beta_sample
+  - /Rhythm_Wwise_beta_sample/Events
+  - /Rhythm_Wwise_beta_sample/Events/Default Work Unit
+  - /Rhythm_Wwise_beta_sample/SoundBanks
+  - /Rhythm_Wwise_beta_sample/SoundBanks/Default Work Unit
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4

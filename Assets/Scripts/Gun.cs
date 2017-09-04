@@ -27,6 +27,7 @@ public class Gun : MonoBehaviour
 			// ... set the animator Shoot trigger parameter and play the audioclip.
 			anim.SetTrigger("Shoot");
 			GetComponent<AudioSource>().Play();
+            AkSoundEngine.PostEvent("KidKwei_Licks", gameObject);
 
 			// If the player is facing right...
 			if(playerCtrl.facingRight)
