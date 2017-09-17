@@ -1,9 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Rewired;
 
+[RequireComponent(typeof(CharacterController))]
 public class PlayerControl : MonoBehaviour
 {
-	[HideInInspector]
+    public int playerId = 0; // The Rewired player id of this character
+
+    public float moveSpeed = 3.0f;
+
+    private Player player; // The Rewired player
+    private CharacterController cc;
+    private Vector3 moveVector;
+
+    [HideInInspector]
 	public bool facingRight = true;			// For determining which way the player is currently facing.
 	[HideInInspector]
 	public bool jump = false;				// Condition for whether the player should jump.
@@ -26,8 +36,14 @@ public class PlayerControl : MonoBehaviour
 
 	void Awake()
 	{
-		// Setting up references.
-		groundCheck = transform.Find("groundCheck");
+        // Get the Rewired Player object for this player and keep it for the duration of the character's lifetime
+        player = ReInput.players.GetPlayer(playerId);
+
+        // Get the character controller
+        cc = GetComponent<CharacterController>();
+
+        // Setting up references.
+        groundCheck = transform.Find("groundCheck");
 		anim = GetComponent<Animator>();
 	}
 
@@ -38,7 +54,7 @@ public class PlayerControl : MonoBehaviour
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));  
 
 		// If the jump button is pressed and the player is grounded then the player should jump.
-		if(Input.GetButtonDown("Jump") && grounded)
+		if(player.GetButtonDown("Jump") && grounded)
 			jump = true;
 	}
 
@@ -46,10 +62,10 @@ public class PlayerControl : MonoBehaviour
 	void FixedUpdate ()
 	{
 		// Cache the horizontal input.
-		float h = Input.GetAxis("Horizontal");
+		float h = player.GetAxis("Move Horizontal");
 
-		// The Speed animator parameter is set to the absolute value of the horizontal input.
-		anim.SetFloat("Speed", Mathf.Abs(h));
+        // The Speed animator parameter is set to the absolute value of the horizontal input.
+        anim.SetFloat("Speed", Mathf.Abs(h));
 
 		// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
 		if(h * GetComponent<Rigidbody2D>().velocity.x < maxSpeed)
@@ -87,9 +103,17 @@ public class PlayerControl : MonoBehaviour
 			jump = false;
 		}
 	}
-	
-	
-	void Flip ()
+
+    private void GetInput()
+    {
+        // Get the input from the Rewired Player. All controlelrs that the Player owns will contribute, so it doesn't matter
+        // whether the input is coming from a joystick, the keyboard, mouse, or a custom controller.
+
+        moveVector.x = player.GetAxis("Move Horizontal"); // get input by name or action id
+        moveVector.y = player.GetAxis("Move Vertical");
+    }
+
+    void Flip ()
 	{
 		// Switch the way the player is labelled as facing.
 		facingRight = !facingRight;

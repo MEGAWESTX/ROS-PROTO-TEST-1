@@ -16,18 +16,28 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2028364E-2815-4B86-8EE2-17C7BA2D0EFE}'
-    m_lastTimePsrt1: 1213520199
-    m_lastTimePart2: -1999309887
+    m_lastTimePsrt1: 479907162
+    m_lastTimePart2: -1999307276
     List:
-    - Name: KidKwei_Licks
-      Path: Default Work Unit\KidKwei_Licks
+    - Name: KidKwei_Licks_square
+      Path: Default Work Unit\KidKwei_Licks_square
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: KidKwei_Licks
+      - ElementName: KidKwei_Licks_square
         ObjectType: 3
-      ID: -178960788
+      ID: 1579436198
       Guid: 426f8d7afcb06646bdd2b50f80a4eaea
+      maxAttenuation: 0
+    - Name: KidKwei_Licks_triangle
+      Path: Default Work Unit\KidKwei_Licks_triangle
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: KidKwei_Licks_triangle
+        ObjectType: 3
+      ID: 36378963
+      Guid: 50b375ea3ffdb14eb379050bb9685855
       maxAttenuation: 0
     - Name: KidKwei_MainPlaylist
       Path: Default Work Unit\KidKwei_MainPlaylist
@@ -64,8 +74,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{5756A5F2-804A-428E-9C55-95752D3DECD5}'
-    m_lastTimePsrt1: 45721990
-    m_lastTimePart2: -1999309885
+    m_lastTimePsrt1: 480047869
+    m_lastTimePart2: -1999307276
     List:
     - Name: Kid_Kwei
       Path: Default Work Unit\Kid_Kwei

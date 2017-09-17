@@ -13,7 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID KIDKWEI_LICKS = 4116006508U;
+        static const AkUniqueID KIDKWEI_LICKS_SQUARE = 1579436198U;
+        static const AkUniqueID KIDKWEI_LICKS_TRIANGLE = 36378963U;
         static const AkUniqueID KIDKWEI_MAINPLAYLIST = 4273272447U;
     } // namespace EVENTS
 
